@@ -1,0 +1,14 @@
+var Goat = "Ronaldo" ;
+var number = 7;
+number = 17;
+console.log(Goat);
+console.log(number);
+var istrue = "Ronaldo is the Goat";
+var isfalse = "Messi is the Goat";
+var fail = true;
+var pass = false;
+console.log(istrue);
+console.log(isfalse);
+console.log(typeof istrue);
+console.log(pass);
+console.log(fail);
