@@ -23,5 +23,5 @@ else if (age>=60){
     console.log(ticket-discount);
 }
 else{
-    console.log(ticket);
+    console.log(ticket); 
 }
