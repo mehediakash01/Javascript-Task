@@ -10,3 +10,4 @@ for (let i =0;i<goat.length;i++){
     }
 }
 console.log(count);
+
