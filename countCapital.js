@@ -1,4 +1,4 @@
-// Count how many times a string has the letter a or A
+//! Count how many times a string has the letter a or A
 
 
 const goat = " Ronaldo is the greatest of All time";
@@ -9,5 +9,6 @@ for (let i =0;i<goat.length;i++){
         count++;
     }
 }
-console.log(count);
+console.log(count); 
+
 
