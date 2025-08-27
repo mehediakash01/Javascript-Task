@@ -10,13 +10,15 @@ function  validContact( contact ) {
     else if (contact.slice(0,2)!=="01"){
         return false;
     }
-    
-  
-    for (let search of contact){
-        if (search=== " "){
-            return false;
-        }
+    else if (contact.includes(" ")){
+        return false;
     }
-    return true;
+  
+   for (let search of contact){
+    if (search <"0" || search> "9"){
+        return false;
+    }
+}
+   return true;
 }
 

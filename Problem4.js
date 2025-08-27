@@ -14,4 +14,3 @@ function  validProposal( person1 , person2 ) {
 
 
 
-

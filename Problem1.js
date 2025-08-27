@@ -5,7 +5,7 @@ function calculateVAT( price ) {
         return "Invalid";
     }
    
-    else if (price<0){
+    else if (price<=0){
         return "Invalid";
     }
     let vat = price*7.5/100;

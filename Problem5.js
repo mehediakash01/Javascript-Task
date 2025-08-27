@@ -12,10 +12,11 @@ let totalTime =0;
     }
     const hour = Math.floor(totalTime/3600);
     const remainSecOfhour = totalTime%3600;
-    const minutes = Math.floor(remainSecOfhour/60);
+    const minute = Math.floor(remainSecOfhour/60);
     const remainSecOfMin = remainSecOfhour%60;
-    const seconds = remainSecOfMin;
-    return { hour: hour, minutes: minutes, seconds: seconds };
+    const second = remainSecOfMin;
+    return { hour: hour, minutes: minute, seconds: second};
 
    
 }
+console.log(calculateSleepTime([100, 3800, "90" ]));

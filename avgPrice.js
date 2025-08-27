@@ -22,6 +22,6 @@ let sum =0;
   return sum/prices.length;
 }
 const avg = findAveragePhonePrice(phones);
-console.log(avg.toFixed(0));
+console.log(avg.toFixed(2));
 
 
